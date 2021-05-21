@@ -1,33 +1,4 @@
 {
-  "_args": [
-    [
-      "@deadcanaries/hsv3@1.1.6",
-      "/Users/miloskotlar/ot-node"
-    ]
-  ],
-  "_from": "@deadcanaries/hsv3@1.1.6",
-  "_id": "@deadcanaries/hsv3@1.1.6",
-  "_inBundle": false,
-  "_integrity": "sha512-mvmFsZx/3lpNV7RN31mx9cb5EAvvAMt3zPbbmGzNqFJmBlD66kH4ozcnH89sviMiHneLwUPJlE/qRXfMFTxbug==",
-  "_location": "/@deadcanaries/hsv3",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "@deadcanaries/hsv3@1.1.6",
-    "name": "@deadcanaries/hsv3",
-    "escapedName": "@deadcanaries%2fhsv3",
-    "scope": "@deadcanaries",
-    "rawSpec": "1.1.6",
-    "saveSpec": null,
-    "fetchSpec": "1.1.6"
-  },
-  "_requiredBy": [
-    "/@deadcanaries/kadence"
-  ],
-  "_resolved": "https://registry.npmjs.org/@deadcanaries/hsv3/-/hsv3-1.1.6.tgz",
-  "_spec": "1.1.6",
-  "_where": "/Users/miloskotlar/ot-node",
   "author": {
     "name": "Emery Rose Hall",
     "email": "emery@deadcanaries.org"
@@ -39,7 +10,7 @@
     "url": "https://gitlab.com/deadcanaries/hsv3/issues"
   },
   "dependencies": {
-    "@deadcanaries/granax": "git+https://github.com/origintrail/granax.git",
+    "granax": "git+https://github.com/origintrail/granax.git",
     "commander": "^2.11.0",
     "mkdirp": "^0.5.1"
   },

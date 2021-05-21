@@ -13,7 +13,7 @@
  * @param {object} torrc - Additional torrc entries
  */
 module.exports = function(services, torrc = {}) {
-  return require('@deadcanaries/granax')({ authOnConnect: true }, services.map(block => {
+  return require('granax')({ authOnConnect: true }, services.map(block => {
     return {
       HiddenServiceDir: block.dataDirectory,
       HiddenServiceVersion: 3,
